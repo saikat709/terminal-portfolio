@@ -18,8 +18,8 @@ const Header = () => {
   };
 
   return (
-    <div>
-      
+    <div onClick={toggleTheme} className="cursor-pointer p-2 rounded-full bg-zinc-200 dark:bg-zinc-800 hover:bg-zinc-300 dark:hover:bg-zinc-700 transition">
+      {theme === 'light' ? '🌙' : '☀️'}
     </div>
   )
 };

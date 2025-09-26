@@ -58,7 +58,7 @@ const Home = () => {
                 </div>
             )}
             {/* Dock (App Icon) */}
-            {minimized && (
+            { minimized && (
                 <div className="flex flex-col items-center mt-8">
                     <div className="bg-zinc-800/80 rounded-2xl px-6 py-3 shadow-lg border border-zinc-700 flex items-end space-x-6">
                         <button
